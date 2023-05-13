@@ -1,0 +1,104 @@
+/* LAYOUT */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.primary-img {
+    margin-top: 3rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12vh 8% 10vh;
+}
+
+section {
+    margin-top: 15vh;
+}
+
+.trusted-partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.trusted-partners img {
+    max-width: 40%;
+    margin-bottom: 3rem;
+}
+
+
+/* FONTS */
+
+html {
+    font-size: 1.125em; /* 18px */
+}
+
+main {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.7rem;
+}
+
+
+/* IMAGES */
+
+body {
+    background: url(../images/bg-header-mobile.png) no-repeat;
+    background-size: 100%;
+}
+
+/* BUTTONS */
+
+button.ios,
+button.mac {
+    width: 90%;
+    padding: 1rem 0;
+    border: none;
+    border-radius: 30px;
+    margin: 1.6rem 0 0;
+    color: hsl(0, 0%, 100%);
+}
+    
+button.ios {
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: 4px solid;
+    border-color: hsl(171, 60%, 34%);
+}
+
+button.mac {
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 4px solid;
+    border-color: hsl(233, 70%, 60%);
+}
